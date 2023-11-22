@@ -1,0 +1,3 @@
+Running on dataset: geonames , model: chatgpt, template: template-1!
+Inference for  chatgpt on template: template-1  is done
+-----------------------------------------------------------

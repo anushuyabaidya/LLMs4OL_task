@@ -1,0 +1,3 @@
+Running on dataset: geonames , model: gpt3, template: template-1!
+Inference for  gpt3 on template: template-1  is done
+-----------------------------------------------------------

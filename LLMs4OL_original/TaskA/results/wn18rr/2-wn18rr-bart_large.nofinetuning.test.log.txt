@@ -1,0 +1,40 @@
+Running on dataset: wn18rr , model: bart_large, template: template-1!
+args: Namespace(kb_name='wn18rr', model_name='bart_large', template='template-1', device='cpu')
+Starting the Inference time is: 2023-11-20 10:42:40
+Inference for  bart_large on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bart_large, template: template-2!
+args: Namespace(kb_name='wn18rr', model_name='bart_large', template='template-2', device='cpu')
+Starting the Inference time is: 2023-11-20 10:42:45
+Inference for  bart_large on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bart_large, template: template-3!
+args: Namespace(kb_name='wn18rr', model_name='bart_large', template='template-3', device='cpu')
+Starting the Inference time is: 2023-11-20 10:42:49
+Inference for  bart_large on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bart_large, template: template-4!
+args: Namespace(kb_name='wn18rr', model_name='bart_large', template='template-4', device='cpu')
+Starting the Inference time is: 2023-11-20 10:42:54
+Inference for  bart_large on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bart_large, template: template-5!
+args: Namespace(kb_name='wn18rr', model_name='bart_large', template='template-5', device='cpu')
+Starting the Inference time is: 2023-11-20 10:42:59
+Inference for  bart_large on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bart_large, template: template-6!
+args: Namespace(kb_name='wn18rr', model_name='bart_large', template='template-6', device='cpu')
+Starting the Inference time is: 2023-11-20 10:43:03
+Inference for  bart_large on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bart_large, template: template-7!
+args: Namespace(kb_name='wn18rr', model_name='bart_large', template='template-7', device='cpu')
+Starting the Inference time is: 2023-11-20 10:43:07
+Inference for  bart_large on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bart_large, template: template-8!
+args: Namespace(kb_name='wn18rr', model_name='bart_large', template='template-8', device='cpu')
+Starting the Inference time is: 2023-11-20 10:43:12
+Inference for  bart_large on template: template-8  is done
+-----------------------------------------------------------

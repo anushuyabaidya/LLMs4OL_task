@@ -1,0 +1,40 @@
+Running on dataset: wn18rr , model: bloom_1b7, template: template-1!
+args: Namespace(kb_name='wn18rr', model_name='bloom_1b7', template='template-1', device='cpu')
+Starting the Inference time is: 2023-11-20 10:44:27
+Inference for  bloom_1b7 on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bloom_1b7, template: template-2!
+args: Namespace(kb_name='wn18rr', model_name='bloom_1b7', template='template-2', device='cpu')
+Starting the Inference time is: 2023-11-20 10:44:31
+Inference for  bloom_1b7 on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bloom_1b7, template: template-3!
+args: Namespace(kb_name='wn18rr', model_name='bloom_1b7', template='template-3', device='cpu')
+Starting the Inference time is: 2023-11-20 10:44:36
+Inference for  bloom_1b7 on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bloom_1b7, template: template-4!
+args: Namespace(kb_name='wn18rr', model_name='bloom_1b7', template='template-4', device='cpu')
+Starting the Inference time is: 2023-11-20 10:44:41
+Inference for  bloom_1b7 on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bloom_1b7, template: template-5!
+args: Namespace(kb_name='wn18rr', model_name='bloom_1b7', template='template-5', device='cpu')
+Starting the Inference time is: 2023-11-20 10:44:45
+Inference for  bloom_1b7 on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bloom_1b7, template: template-6!
+args: Namespace(kb_name='wn18rr', model_name='bloom_1b7', template='template-6', device='cpu')
+Starting the Inference time is: 2023-11-20 10:44:49
+Inference for  bloom_1b7 on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bloom_1b7, template: template-7!
+args: Namespace(kb_name='wn18rr', model_name='bloom_1b7', template='template-7', device='cpu')
+Starting the Inference time is: 2023-11-20 10:44:54
+Inference for  bloom_1b7 on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bloom_1b7, template: template-8!
+args: Namespace(kb_name='wn18rr', model_name='bloom_1b7', template='template-8', device='cpu')
+Starting the Inference time is: 2023-11-20 10:44:58
+Inference for  bloom_1b7 on template: template-8  is done
+-----------------------------------------------------------
