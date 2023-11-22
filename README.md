@@ -102,48 +102,48 @@ However, they show potential as assistants to aid the knowledge acquisition proc
   - ```commandline
       python test.py --kb_name="wn18rr" --model_name="bert_large" --template="template-1" --device="cpu"
       ```
-  - Result: ``` {
-        "MAP@1": 0.021964097148891235,
-        "MAP@5": 0.021964097148891235,
-        "MAP@10": 0.021964097148891235
-    }```
-  - The results were the same as in the original paper.
+    - Result: ``` {
+          "MAP@1": 0.021964097148891235,
+          "MAP@5": 0.021964097148891235,
+          "MAP@10": 0.021964097148891235
+      }```
+      - The results were the same as in the original paper.
   - ```commandline
       python test.py --kb_name="wn18rr" --model_name="bert_large" --template="template-8" --device="cpu"
       ```
-  - Result: ``` {
-        "MAP@1": 0.2785638859556494,
-        "MAP@5": 0.2785638859556494,
-        "MAP@10": 0.2785638859556494
-    }```
-  - The results were the same as in the original paper.
+    - Result: ``` {
+          "MAP@1": 0.2785638859556494,
+          "MAP@5": 0.2785638859556494,
+          "MAP@10": 0.2785638859556494
+      }```
+      - The results were the same as in the original paper.
   - ```commandline
      python test.py --kb_name="wn18rr" --model_name="flan_t5_xl" --template="template-8" --device="cpu"
     ```
-  - Result: ``` {'MAP@1': 0.0, 'MAP@5': 0.0, 'MAP@10': 0.0} ```
-    - This result seemed off and I did rerun it as well but the results did not change, I think this might be because the LLM model I downloaded was different from the model the original LLMs4OL used.
+      - Result: ``` {'MAP@1': 0.0, 'MAP@5': 0.0, 'MAP@10': 0.0} ```
+        - This result seemed off and I did rerun it as well but the results did not change, I think this might be because the LLM model I downloaded was different from the model the original LLMs4OL used.
 
 - ### For TaskB: Taxonomy discovery
   - ```commandline
     python test.py --kb_name="geonames" --model="bert_large" --template="1" --device="cpu"
       ```
-  - Result: ``` F1-score: 0.5169802310788779 ```
-  - The result was increased from original 0.41 to 0.5169
+    - Result: ``` F1-score: 0.5169802310788779 ```
+      - The result was increased from original 0.41 to 0.5169
   - ```commandline
     python test.py --kb_name="geonames" --model="bart_large" --template="1" --device="cpu"
       ```
-  - Result: ``` F1-score: 0.41033605190046646 ```
-  - The result was increased from original 0.3811 to 0.4103
+    - Result: ``` F1-score: 0.41033605190046646 ```
+      - The result was increased from original 0.3811 to 0.4103
 
 - ### For TaskC: Non-taxonomic relation extraction
   - ```commandline
     python test.py --kb_name="umls" --model="bert_large" --device="cpu"
       ```
-  - Result: ``` F1-Score: 0.4010718282929362 ```
-  - The results were the same as in the original paper.
+    - Result: ``` F1-Score: 0.4010718282929362 ```
+      - The results were the same as in the original paper.
 
   - ```commandline
     python test.py --kb_name="umls" --model="bart_large" --device="cpu"
       ```
-  - Result: ``` F1-Score: 0.4235504359995694 ```
-  - The results were the same as in the original paper.
+    - Result: ``` F1-Score: 0.4235504359995694 ```
+      - The results were the same as in the original paper.
