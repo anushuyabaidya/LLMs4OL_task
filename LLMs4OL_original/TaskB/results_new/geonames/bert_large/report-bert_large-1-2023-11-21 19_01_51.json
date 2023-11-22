@@ -1,0 +1,57 @@
+{
+    "baseline-run-args": "Namespace(kb_name='geonames', model='bert_large', template='1', device='cuda')",
+    "report_output_refrence": "results/geonames/bert_large/report-bert_large-1-2023-11-21 19:01:51.json",
+    "results": {
+        "accuracy": 0.5625,
+        "clf-report": "              precision    recall  f1-score   support\n\n     correct       0.54      0.88      0.67       540\n   incorrect       0.67      0.25      0.37       548\n\n    accuracy                           0.56      1088\n   macro avg       0.61      0.56      0.52      1088\nweighted avg       0.61      0.56      0.52      1088\n",
+        "clf-report-dict": {
+            "correct": {
+                "precision": 0.536281179138322,
+                "recall": 0.8759259259259259,
+                "f1-score": 0.6652601969057664,
+                "support": 540
+            },
+            "incorrect": {
+                "precision": 0.6747572815533981,
+                "recall": 0.25364963503649635,
+                "f1-score": 0.36870026525198935,
+                "support": 548
+            },
+            "accuracy": 0.5625,
+            "macro avg": {
+                "precision": 0.6055192303458601,
+                "recall": 0.5647877804812111,
+                "f1-score": 0.5169802310788779,
+                "support": 1088
+            },
+            "weighted avg": {
+                "precision": 0.6060283336635626,
+                "recall": 0.5625,
+                "f1-score": 0.5158899372125036,
+                "support": 1088
+            }
+        }
+    },
+    "dataset-in-use": "geonames",
+    "configs": {
+        "raw_feature_codes": "../datasets/TaskB/Geonames/raw/featureCodes_en.txt",
+        "feature_codes": "../datasets/TaskB/Geonames/processed/feature_codes.csv",
+        "kb_name": "geonames",
+        "model": "bert_large",
+        "device": "cuda",
+        "processed_hier": "../datasets/TaskB/Geonames/processed/hierarchy_dict.json",
+        "processed_train": "../datasets/TaskB/Geonames/processed/hierarchy_train.json",
+        "processed_test": "../datasets/TaskB/Geonames/processed/hierarchy_test.json",
+        "template_text": "../datasets/TaskB/templates.txt",
+        "template": "1",
+        "labels_path": "../datasets/TaskB/label_mapper.json",
+        "dataset": "geonames",
+        "seed": 555,
+        "test_size": 0.8,
+        "report_output": "results/geonames/bert_large/report-bert_large-1-2023-11-21 19:01:51.json",
+        "batch_size": 4,
+        "model_path": "../assets/LLMs/bert-large-uncased",
+        "model_name": "bert",
+        "f": null
+    }
+}

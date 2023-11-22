@@ -1,0 +1,56 @@
+{
+    "baseline-run-args": "Namespace(kb_name='umls', model='bert_large', device='cuda')",
+    "report_output_refrence": "results/umls/bert_large/report-bert_large-2023-11-21 19:18:19.json",
+    "results": {
+        "accuracy": 0.415257048092869,
+        "clf-report": {
+            "correct": {
+                "precision": 0.6952998379254457,
+                "recall": 0.3821826280623608,
+                "f1-score": 0.49324518539810297,
+                "support": 4490
+            },
+            "incorrect": {
+                "precision": 0.22122403144300953,
+                "recall": 0.5116883116883116,
+                "f1-score": 0.3088984711877695,
+                "support": 1540
+            },
+            "accuracy": 0.415257048092869,
+            "macro avg": {
+                "precision": 0.4582619346842276,
+                "recall": 0.4469354698753362,
+                "f1-score": 0.4010718282929362,
+                "support": 6030
+            },
+            "weighted avg": {
+                "precision": 0.5742257513611088,
+                "recall": 0.415257048092869,
+                "f1-score": 0.44616493002763635,
+                "support": 6030
+            }
+        }
+    },
+    "dataset-in-use": "umls",
+    "configs": {
+        "raw_sn_re": "../datasets/TaskC/UMLS/raw/SRSTRE1",
+        "raw_sn_re_def": "../datasets/TaskC/UMLS/raw/SRDEF",
+        "processed_sn": "../datasets/TaskC/UMLS/processed/graph_sn_dict.json",
+        "processed_train": "../datasets/TaskC/UMLS/processed/graph_sn_dict_train.json",
+        "processed_test": "../datasets/TaskC/UMLS/processed/graph_sn_dict_test.json",
+        "kb_name": "umls",
+        "model": "bert_large",
+        "device": "cuda",
+        "template_text": "../datasets/TaskC/templates.txt",
+        "template": 0,
+        "labels_path": "../datasets/TaskC/label_mapper.json",
+        "dataset": "umls",
+        "seed": 555,
+        "test_size": 0.8,
+        "report_output": "results/umls/bert_large/report-bert_large-2023-11-21 19:18:19.json",
+        "batch_size": 1,
+        "model_path": "../assets/LLMs/bert-large-uncased",
+        "model_name": "bert",
+        "f": null
+    }
+}

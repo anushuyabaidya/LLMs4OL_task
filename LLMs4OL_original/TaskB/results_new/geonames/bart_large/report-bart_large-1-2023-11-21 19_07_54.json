@@ -1,0 +1,57 @@
+{
+    "baseline-run-args": "Namespace(kb_name='geonames', model='bart_large', template='1', device='cuda')",
+    "report_output_refrence": "results/geonames/bart_large/report-bart_large-1-2023-11-21 19:07:54.json",
+    "results": {
+        "accuracy": 0.5045955882352942,
+        "clf-report": "              precision    recall  f1-score   support\n\n     correct       0.50      0.91      0.65       540\n   incorrect       0.54      0.10      0.17       548\n\n    accuracy                           0.50      1088\n   macro avg       0.52      0.51      0.41      1088\nweighted avg       0.52      0.50      0.41      1088\n",
+        "clf-report-dict": {
+            "correct": {
+                "precision": 0.5005086469989827,
+                "recall": 0.9111111111111111,
+                "f1-score": 0.6460932370321734,
+                "support": 540
+            },
+            "incorrect": {
+                "precision": 0.5428571428571428,
+                "recall": 0.10401459854014598,
+                "f1-score": 0.17457886676875958,
+                "support": 548
+            },
+            "accuracy": 0.5045955882352942,
+            "macro avg": {
+                "precision": 0.5216828949280627,
+                "recall": 0.5075628548256286,
+                "f1-score": 0.41033605190046646,
+                "support": 1088
+            },
+            "weighted avg": {
+                "precision": 0.5218385879275412,
+                "recall": 0.5045955882352942,
+                "f1-score": 0.40860254318626277,
+                "support": 1088
+            }
+        }
+    },
+    "dataset-in-use": "geonames",
+    "configs": {
+        "raw_feature_codes": "../datasets/TaskB/Geonames/raw/featureCodes_en.txt",
+        "feature_codes": "../datasets/TaskB/Geonames/processed/feature_codes.csv",
+        "kb_name": "geonames",
+        "model": "bart_large",
+        "device": "cuda",
+        "processed_hier": "../datasets/TaskB/Geonames/processed/hierarchy_dict.json",
+        "processed_train": "../datasets/TaskB/Geonames/processed/hierarchy_train.json",
+        "processed_test": "../datasets/TaskB/Geonames/processed/hierarchy_test.json",
+        "template_text": "../datasets/TaskB/templates.txt",
+        "template": "1",
+        "labels_path": "../datasets/TaskB/label_mapper.json",
+        "dataset": "geonames",
+        "seed": 555,
+        "test_size": 0.8,
+        "report_output": "results/geonames/bart_large/report-bart_large-1-2023-11-21 19:07:54.json",
+        "batch_size": 4,
+        "model_path": "../assets/LLMs/bart-large",
+        "model_name": "bart",
+        "f": null
+    }
+}
