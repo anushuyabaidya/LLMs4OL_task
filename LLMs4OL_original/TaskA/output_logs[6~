@@ -1,0 +1,27 @@
+kb_name win18rr 
+log output_logs[6~ 
+Running baseline models!
+Running bert_large for template: template-1!
+Inference for  bert_large on template: template-1  is done
+-----------------------------------------------------------
+Running bert_large for template: template-2!
+Inference for  bert_large on template: template-2  is done
+-----------------------------------------------------------
+Running bert_large for template: template-3!
+Inference for  bert_large on template: template-3  is done
+-----------------------------------------------------------
+Running bert_large for template: template-4!
+Inference for  bert_large on template: template-4  is done
+-----------------------------------------------------------
+Running bert_large for template: template-5!
+Inference for  bert_large on template: template-5  is done
+-----------------------------------------------------------
+Running bert_large for template: template-6!
+Inference for  bert_large on template: template-6  is done
+-----------------------------------------------------------
+Running bert_large for template: template-7!
+Inference for  bert_large on template: template-7  is done
+-----------------------------------------------------------
+Running bert_large for template: template-8!
+Inference for  bert_large on template: template-8  is done
+-----------------------------------------------------------

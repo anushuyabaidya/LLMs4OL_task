@@ -1,0 +1,24 @@
+Running on dataset: medcin , model: gpt3, template: template-1!
+Inference for  gpt3 on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: gpt3, template: template-2!
+Inference for  gpt3 on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: gpt3, template: template-3!
+Inference for  gpt3 on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: gpt3, template: template-4!
+Inference for  gpt3 on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: gpt3, template: template-5!
+Inference for  gpt3 on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: gpt3, template: template-6!
+Inference for  gpt3 on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: gpt3, template: template-7!
+Inference for  gpt3 on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: gpt3, template: template-8!
+Inference for  gpt3 on template: template-8  is done
+-----------------------------------------------------------

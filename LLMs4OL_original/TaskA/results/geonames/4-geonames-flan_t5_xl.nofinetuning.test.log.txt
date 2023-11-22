@@ -1,0 +1,40 @@
+Running on dataset: geonames , model: flan_t5_xl, template: template-1!
+args: Namespace(kb_name='geonames', model_name='flan_t5_xl', template='template-1', device='cpu')
+Starting the Inference time is: 2023-11-20 10:48:13
+Inference for  flan_t5_xl on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: flan_t5_xl, template: template-2!
+args: Namespace(kb_name='geonames', model_name='flan_t5_xl', template='template-2', device='cpu')
+Starting the Inference time is: 2023-11-20 10:48:18
+Inference for  flan_t5_xl on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: flan_t5_xl, template: template-3!
+args: Namespace(kb_name='geonames', model_name='flan_t5_xl', template='template-3', device='cpu')
+Starting the Inference time is: 2023-11-20 10:48:22
+Inference for  flan_t5_xl on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: flan_t5_xl, template: template-4!
+args: Namespace(kb_name='geonames', model_name='flan_t5_xl', template='template-4', device='cpu')
+Starting the Inference time is: 2023-11-20 10:48:27
+Inference for  flan_t5_xl on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: flan_t5_xl, template: template-5!
+args: Namespace(kb_name='geonames', model_name='flan_t5_xl', template='template-5', device='cpu')
+Starting the Inference time is: 2023-11-20 10:48:31
+Inference for  flan_t5_xl on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: flan_t5_xl, template: template-6!
+args: Namespace(kb_name='geonames', model_name='flan_t5_xl', template='template-6', device='cpu')
+Starting the Inference time is: 2023-11-20 10:48:36
+Inference for  flan_t5_xl on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: flan_t5_xl, template: template-7!
+args: Namespace(kb_name='geonames', model_name='flan_t5_xl', template='template-7', device='cpu')
+Starting the Inference time is: 2023-11-20 10:48:40
+Inference for  flan_t5_xl on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: flan_t5_xl, template: template-8!
+args: Namespace(kb_name='geonames', model_name='flan_t5_xl', template='template-8', device='cpu')
+Starting the Inference time is: 2023-11-20 10:48:44
+Inference for  flan_t5_xl on template: template-8  is done
+-----------------------------------------------------------

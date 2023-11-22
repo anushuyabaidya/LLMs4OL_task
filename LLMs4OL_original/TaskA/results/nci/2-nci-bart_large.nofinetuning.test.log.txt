@@ -1,0 +1,24 @@
+Running on dataset: nci , model: bart_large, template: template-1!
+Inference for  bart_large on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bart_large, template: template-2!
+Inference for  bart_large on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bart_large, template: template-3!
+Inference for  bart_large on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bart_large, template: template-4!
+Inference for  bart_large on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bart_large, template: template-5!
+Inference for  bart_large on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bart_large, template: template-6!
+Inference for  bart_large on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bart_large, template: template-7!
+Inference for  bart_large on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bart_large, template: template-8!
+Inference for  bart_large on template: template-8  is done
+-----------------------------------------------------------

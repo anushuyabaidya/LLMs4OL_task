@@ -1,0 +1,24 @@
+Running on dataset: medcin , model: flan_t5_large, template: template-1!
+Inference for  flan_t5_large on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: flan_t5_large, template: template-2!
+Inference for  flan_t5_large on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: flan_t5_large, template: template-3!
+Inference for  flan_t5_large on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: flan_t5_large, template: template-4!
+Inference for  flan_t5_large on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: flan_t5_large, template: template-5!
+Inference for  flan_t5_large on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: flan_t5_large, template: template-6!
+Inference for  flan_t5_large on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: flan_t5_large, template: template-7!
+Inference for  flan_t5_large on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: flan_t5_large, template: template-8!
+Inference for  flan_t5_large on template: template-8  is done
+-----------------------------------------------------------

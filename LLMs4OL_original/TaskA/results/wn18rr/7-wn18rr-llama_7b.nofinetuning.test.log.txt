@@ -1,0 +1,40 @@
+Running on dataset: wn18rr , model: llama_7b, template: template-1!
+args: Namespace(kb_name='wn18rr', model_name='llama_7b', template='template-1', device='cpu')
+Starting the Inference time is: 2023-11-20 10:45:42
+Inference for  llama_7b on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: llama_7b, template: template-2!
+args: Namespace(kb_name='wn18rr', model_name='llama_7b', template='template-2', device='cpu')
+Starting the Inference time is: 2023-11-20 10:45:48
+Inference for  llama_7b on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: llama_7b, template: template-3!
+args: Namespace(kb_name='wn18rr', model_name='llama_7b', template='template-3', device='cpu')
+Starting the Inference time is: 2023-11-20 10:45:53
+Inference for  llama_7b on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: llama_7b, template: template-4!
+args: Namespace(kb_name='wn18rr', model_name='llama_7b', template='template-4', device='cpu')
+Starting the Inference time is: 2023-11-20 10:45:58
+Inference for  llama_7b on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: llama_7b, template: template-5!
+args: Namespace(kb_name='wn18rr', model_name='llama_7b', template='template-5', device='cpu')
+Starting the Inference time is: 2023-11-20 10:46:03
+Inference for  llama_7b on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: llama_7b, template: template-6!
+args: Namespace(kb_name='wn18rr', model_name='llama_7b', template='template-6', device='cpu')
+Starting the Inference time is: 2023-11-20 10:46:08
+Inference for  llama_7b on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: llama_7b, template: template-7!
+args: Namespace(kb_name='wn18rr', model_name='llama_7b', template='template-7', device='cpu')
+Starting the Inference time is: 2023-11-20 10:46:13
+Inference for  llama_7b on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: llama_7b, template: template-8!
+args: Namespace(kb_name='wn18rr', model_name='llama_7b', template='template-8', device='cpu')
+Starting the Inference time is: 2023-11-20 10:46:17
+Inference for  llama_7b on template: template-8  is done
+-----------------------------------------------------------

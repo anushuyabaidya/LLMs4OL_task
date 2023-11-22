@@ -1,0 +1,3 @@
+Running on dataset: nci , model: gpt4, template: template-3!
+Inference for  gpt4 on template: template-3  is done
+-----------------------------------------------------------
