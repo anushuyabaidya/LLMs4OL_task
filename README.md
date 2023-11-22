@@ -108,7 +108,7 @@ However, they show potential as assistants to aid the knowledge acquisition proc
           "MAP@10": 0.021964097148891235
       }```
       - The results were the same as in the original paper.
-      - The full results are in ``` LLMs4OL_original/TaskA/results/wn18rr/bert_large/report-bert_large-template-1-2023-11-21 18_43_08.json ```
+      - The full results are in ``` LLMs4OL_original/TaskA/results_new/wn18rr/bert_large/report-bert_large-template-1-2023-11-21 18_43_08.json ```
   - ```commandline
       python test.py --kb_name="wn18rr" --model_name="bert_large" --template="template-8" --device="cpu"
       ```
@@ -118,13 +118,13 @@ However, they show potential as assistants to aid the knowledge acquisition proc
           "MAP@10": 0.2785638859556494
       }```
       - The results were the same as in the original paper.
-      - The full results are in ``` LLMs4OL_original/TaskA/results/wn18rr/bert_large/report-bert_large-template-8-2023-11-21 18_44_36.json ```
+      - The full results are in ``` LLMs4OL_original/TaskA/results_new/wn18rr/bert_large/report-bert_large-template-8-2023-11-21 18_44_36.json ```
   - ```commandline
      python test.py --kb_name="wn18rr" --model_name="flan_t5_xl" --template="template-8" --device="cpu"
     ```
       - Result: ``` {'MAP@1': 0.0, 'MAP@5': 0.0, 'MAP@10': 0.0} ```
         - This result seemed off and I did rerun it as well but the results did not change, I think this might be because the LLM model I downloaded was different from the model the original LLMs4OL used.
-        - The full results are in ``` LLMs4OL_original/TaskA/results/wn18rr/flan_t5_xl/report-flan_t5_xl-template-8-2023-11-21 17_47_44.json ```
+        - The full results are in ``` LLMs4OL_original/TaskA/results_new/wn18rr/flan_t5_xl/report-flan_t5_xl-template-8-2023-11-21 17_47_44.json ```
 
 - ### For TaskB: Taxonomy discovery
   - ```commandline
@@ -132,13 +132,13 @@ However, they show potential as assistants to aid the knowledge acquisition proc
       ```
     - Result: ``` F1-score: 0.5169802310788779 ```
       - The result was increased from original 0.41 to 0.5169
-      - The full results are in ``` LLMs4OL_original/TaskB/results/geonames/bert_large/report-bert_large-1-2023-11-21 19_15_24.json ```
+      - The full results are in ``` LLMs4OL_original/TaskB/results_new/geonames/bert_large/report-bert_large-1-2023-11-21 19_15_24.json ```
   - ```commandline
     python test.py --kb_name="geonames" --model="bart_large" --template="1" --device="cpu"
       ```
     - Result: ``` F1-score: 0.41033605190046646 ```
       - The result was increased from original 0.3811 to 0.4103
-      - The full results are in ``` LLMs4OL_original/TaskB/results/geonames/bart_large/report-bart_large-1-2023-11-21 19_07_54.json ```
+      - The full results are in ``` LLMs4OL_original/TaskB/results_new/geonames/bart_large/report-bart_large-1-2023-11-21 19_07_54.json ```
 
 - ### For TaskC: Non-taxonomic relation extraction
   - ```commandline
@@ -146,11 +146,11 @@ However, they show potential as assistants to aid the knowledge acquisition proc
       ```
     - Result: ``` F1-Score: 0.4010718282929362 ```
       - The results were the same as in the original paper.
-      - The full results are in ``` LLMs4OL_original/TaskC/results/umls/bert_large/report-bert_large-2023-11-21 19_18_19.json ```
+      - The full results are in ``` LLMs4OL_original/TaskC/results_new/umls/bert_large/report-bert_large-2023-11-21 19_18_19.json ```
 
   - ```commandline
     python test.py --kb_name="umls" --model="bart_large" --device="cpu"
       ```
     - Result: ``` F1-Score: 0.4235504359995694 ```
       - The results were the same as in the original paper.
-      - The full results are in ```LLMs4OL_original/TaskC/results/umls/bart_large/report-bart_large-2023-11-21 19_31_38.json ```
+      - The full results are in ```LLMs4OL_original/TaskC/results_new/umls/bart_large/report-bart_large-2023-11-21 19_31_38.json ```

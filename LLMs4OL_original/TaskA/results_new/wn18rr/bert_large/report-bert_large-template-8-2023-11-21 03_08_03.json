@@ -1,0 +1,61 @@
+{
+    "baseline-run-args": "Namespace(kb_name='wn18rr', model_name='bert_large', template='template-8', device='cuda')",
+    "report_output_refrence": "results/wn18rr/bert_large/report-bert_large-template-8-2023-11-21 03:08:03.json",
+    "results": {
+        "MAP@1": 0.2785638859556494,
+        "MAP@5": 0.2785638859556494,
+        "MAP@10": 0.2785638859556494
+    },
+    "dataset-in-use": "WNDataset:Test-SET --- Template-in-use: '[A]' part of speech is a [MASK].",
+    "configs": {
+        "raw_train": "../datasets/TaskA/WN18RR/raw/train.txt",
+        "raw_test": "../datasets/TaskA/WN18RR/raw/test.txt",
+        "raw_valid": "../datasets/TaskA/WN18RR/raw/valid.txt",
+        "definition": "../assets/WordNetDefinitions/wordnet-definitions.txt",
+        "processed_train": "../datasets/TaskA/WN18RR/processed-3/train.csv",
+        "processed_test": "../datasets/TaskA/WN18RR/processed-3/test.csv",
+        "processed_valid": "../datasets/TaskA/WN18RR/processed-3/valid.csv",
+        "processed_entity_train": "../datasets/TaskA/WN18RR/processed-3/entity_train.csv",
+        "processed_entity_test": "../datasets/TaskA/WN18RR/processed-3/entity_test.csv",
+        "processed_entity_valid": "../datasets/TaskA/WN18RR/processed-3/entity_valid.csv",
+        "relations_to_ignore": [
+            "_also_see",
+            "_member_of_domain_region",
+            "_similar_to",
+            "_member_of_domain_usage"
+        ],
+        "entity_class_to_ignore": [
+            "RB"
+        ],
+        "kb_name": "wn18rr",
+        "model_name": "bert_large",
+        "device": "cuda",
+        "dataset": "wn18rr",
+        "entity_path": "../datasets/TaskA/WN18RR/wn18rr_entities.json",
+        "dataset_stats": "../datasets/TaskA/WN18RR/stats.json",
+        "report_output": "results/wn18rr/bert_large/report-bert_large-template-8-2023-11-21 03:08:03.json",
+        "model_output": "results/wn18rr/bert_large/output-bert_large-template-8-2023-11-21 03:08:03.json",
+        "templates_json": "../datasets/TaskA/WN18RR/templates.json",
+        "label_mapper": "../datasets/TaskA/WN18RR/label_mapper.json",
+        "chatgpt_label_mapper": "../datasets/TaskA/WN18RR/chatgpt_label_mapper.json",
+        "answer_set_generator_n": 10,
+        "answer_set_generator_domains": "lexicosemantics",
+        "heirarchy": "../datasets/TaskA/WN18RR/heirarchy.json",
+        "test_size": 0.08,
+        "seed": 555,
+        "template": "template-8",
+        "top_n": 1,
+        "eval_ks": [
+            1,
+            5,
+            10
+        ],
+        "eval_metric": "map",
+        "batch_size": 16,
+        "model_path": "../assets/LLMs/bert-large-uncased",
+        "template_name": "bert",
+        "multi_gpu": false,
+        "gpu_no": 1,
+        "f": null
+    }
+}
